@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Web</title>
+    <meta name="description" content="Portafolio web profesional de Agustín Gamarra">
+    <meta name="keywords" content="portafolio, programación, junior, JavaScript, HTML, CSS">
+    <meta name="author" content="Agustín Gamarra">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Nav bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Agustín Gamarra</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Mis proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Card principal -->
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-5">Agustín Gamarra</h1>
+            <p class="lead">Desarrollador Web - Full Stack JavaScript</p>
+            <a href="#sobre" class="btn btn-primary btn-lg">Descubre más sobre mí</a>
+        </div>
+    </header>
+
+    <!-- Sobre mí -->
+    <section id="sobre" class="container py-5">
+        <h2>¿Quién soy?</h2>
+        <p>Hola, soy Agustín Gamarra, tengo 23 años y soy estudiante de un bootcamp de programación. En mi infancia descubrí la informática y desde ese entonces ha sido mi pasión...</p>
+        <h3>Mi historia</h3>
+        <p>A lo largo de mi vida, descubrí mi interés por la informática desde una edad temprana, gracias a una beca escolar y a diversas oportunidades tecnológicas que me permitieron seguir aprendiendo y profundizando en este campo.</p>
+    </section>
+
+    <!-- Mis proyectos -->
+    <section id="proyectos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Mis proyectos</h2>
+            <div class="row">
+                <!-- Primer Proyecto -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/Minado_En_grupo_de_bloques.png" class="card-img-top" alt="Minado en conjunto">
+                        <div class="card-body">
+                            <h5 class="card-title">Minado en conjunto</h5>
+                            <p class="card-text">Este mod permite minar un conjunto de 4 bloques a la vez en direcciones vertical, horizontal o en forma de T.</p>
+                            <a href="#" class="btn btn-primary">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Segundo Proyecto -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/Salto_Doble.PNG" class="card-img-top" alt="Salto doble">
+                        <div class="card-body">
+                            <h5 class="card-title">Salto doble</h5>
+                            <p class="card-text">Te permite dar un salto adicional después de tocar una pared. ¡Hasta 2 saltos adicionales!</p>
+                            <a href="#" class="btn btn-primary">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tercer Proyecto -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./assets/img/Zoom_mod.webp" class="card-img-top" alt="Zoom mod">
+                        <div class="card-body">
+                            <h5 class="card-title">Zoom mod</h5>
+                            <p class="card-text">Este mod te permite hacer zoom en el mundo de Minecraft según la configuración de tus chunks.</p>
+                            <a href="#" class="btn btn-primary">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Contacto -->
+<section id="contacto" class="container py-5">
+    <h2>Contacto</h2>
+    <form id="contactForm" action="" method="post">
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Tu correo" required>
+        </div>
+        <div class="mb-3">
+            <label for="interes" class="form-label">¿Estás interesado?</label><br>
+            <input type="radio" name="interes" id="si" value="si"> Sí
+            <input type="radio" name="interes" id="no" value="no"> No
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+    <!-- Mensaje de Validación -->
+    <div id="message" class="mt-3"></div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <p>© 2025 Agustín Gamarra</p>
+    <p><a href="https://www.linkedin.com/in/agust%C3%ADn-gamarra/" class="text-white">LinkedIn</a></p>
+</footer>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<!-- JavaScript -->
+<script src="assets/js/script.js"></script>
+</body>
+</html>
