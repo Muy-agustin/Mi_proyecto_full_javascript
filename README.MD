@@ -16,5 +16,10 @@ Este proyecto esta pensado para dar una presentación de mí, y, demostrar mi us
 
 - [Agustín Gamarra](mailto:agxtindos@gmail.com) 📧
 
+### Repositorio Github
+
+- repositorio: [link](https://github.com/Muy-agustin/Mi_proyecto_full_javascript)
+- página web : [link](https://muy-agustin.github.io/Mi_proyecto_full_javascript/)
+
 
 
