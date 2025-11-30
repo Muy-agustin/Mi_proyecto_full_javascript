@@ -28,7 +28,7 @@ function solicitarDatos() {
     while (true) {
         nombreCompleto = prompt("Ingresa tu nombre completo:");
         if (nombreCompleto !== null && nombreCompleto.trim() !== "") {
-            break; // Si el campo no está vacío, salimos del ciclo
+            break;
         } else {
             alert("Error: El campo 'nombre' no puede estar vacío.");
         }
@@ -38,7 +38,7 @@ function solicitarDatos() {
     while (true) {
         correoElectrónico = prompt("Ingresa tu correo electrónico:");
         if (correoElectrónico !== null && correoElectrónico.trim() !== "") {
-            break; // Si el campo no está vacío, salimos del ciclo
+            break;
         } else {
             alert("Error: El campo 'correo' no puede estar vacío.");
         }
@@ -49,7 +49,7 @@ function solicitarDatos() {
         contraseña = prompt("Ingresa tu contraseña:");
         if (contraseña !== null && contraseña.trim() !== "") {
             if (contraseña.length >= 8) {
-                break; // Si la contraseña tiene al menos 8 caracteres, salimos del ciclo
+                break; 
             } else {
                 alert("Error: La contraseña debe tener al menos 8 caracteres.");
             }
