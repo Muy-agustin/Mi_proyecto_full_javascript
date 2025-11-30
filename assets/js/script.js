@@ -59,7 +59,7 @@ function solicitarDatos() {
     }
 
     // Mensaje de victoria
-    alert(`✅ Registro exitoso. ¡Bienvenido, ${nombreCompleto} echa un vistazo y disfruta de la comunidad!`);
+    alert(`✅ Registro exitoso. ¡Bienvenido ${nombreCompleto} echa un vistazo y disfruta de la comunidad!`);
 }
 
 // llamado de la funcion
